@@ -1,0 +1,18 @@
+Assignment : Day 1
+
+Q) Find time complexity T(n) for the following code snippet :
+
+
+
+	a=1;
+	b=1;
+
+	while(b<n)
+	{
+		a+=1;
+		b+=a;
+		cout<<"Hi";
+	}
+
+
+	Answer : Time complexity T(n) : O(logn)
